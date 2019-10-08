@@ -50,3 +50,202 @@ body {
 	display: block;
 	margin: 0 auto;
 }
+/*Lugares*/
+#cuzco {
+	background: white;
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	height: 400px;
+	width: 320px;
+	border-radius: 10px;
+	
+}
+#cuadro {
+	background: rgba(0,0,0,0.8);
+	width: 100px;
+	height: 40px; 
+	position: relative;
+	top: -220px;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+#cuadro p{
+	text-align: center;
+	font-family: Calibri;
+	font-size: 15px;
+	color: white;
+	padding-top: 10px;
+	padding-left: 5px;
+	
+	
+}
+#cuzco img {
+	height: 200px;
+	width: 320px;
+	border-top-right-radius: 10px;
+	border-top-left-radius: 10px;
+
+}
+#parrafo { 
+	font-family: Calibri;
+	font-size: 18px;
+	padding-left: 70px;
+	position: relative;
+	top: -40px;
+
+}
+#location img{
+	height: 25px;
+	width: 25px;
+	padding-left: 30px;
+	position: relative;
+	top: -120px;
+}
+#clock img {
+	height: 25px;
+	width: 25px;
+	padding-left: 30px;
+	position: relative;
+	top: -110px;
+
+}
+
+#saber { 
+	font-family: Arial;
+	font-size: 20px;
+	margin-top: 0;
+	text-align: center;
+	color: orange;
+	position: relative;
+	top: -80px;
+	cursor: pointer;
+}
+
+#experiencias {
+	background: #FF8000;
+	width: 200px;
+	height: 60px;
+	border-radius: 8px;
+	margin: 0 auto;
+}
+
+#experiencias p {
+	text-align: center;
+	color: white;
+	font-family: Arial;
+	font-size: 17px;
+	padding-top: 20px;
+}
+
+/*contactos*/
+#contacto {
+	background: #ECECEC;
+	margin-top: 40px;
+	height: 500px;
+	width: 100%; 
+
+}
+#datos {
+	background: white;
+	height: 420px;
+	width: 90%;
+	margin: 0 auto;
+	position: relative;
+	top: 40px;
+	border-radius: 10px;
+}
+#datos h1 {
+	font-family: Calibri;
+	font-size: 30px;
+	color: black;
+	position: relative;
+	top: 20px;
+	left: 5%;
+	padding-bottom: 10px;
+}
+#nom {
+	background: white;
+	margin: 0 auto;
+	padding: 0px;
+	border: 0.5px solid black;
+	width: 90%;
+	position: relative;
+	top: 30px;
+	border-radius: 10px;
+	
+}
+#nom p {
+	font-family: Calibri;
+	font-size: 20px;
+	position: relative;
+	top: -45px;
+}
+#correo {
+	background: white;
+	margin: 0 auto;
+	padding: 0px;
+	border:  0.5px solid black;
+	width: 90%;
+	position: relative;
+	top: 75px;
+	border-radius: 10px;
+}
+
+#correo p {
+	font-family: Calibri;
+	font-size: 20px;
+	position: relative;
+	top: -45px;
+	
+
+}
+#com {
+	background: white;
+	margin: 0 auto;
+	padding: 0px;
+	border:  0.5px solid black;
+	width: 90%;
+	position: relative;
+	top: 120px;
+	border-radius: 10px;
+}
+
+#com p {
+	font-family: Calibri;
+	font-size: 20px;
+	position: relative;
+	top: -45px;
+	 
+}
+
+/*logos*/
+#logo {
+	background: #475160;
+	width: 100%;
+	height: 150px;
+}
+#logo h1 {
+	font-family: Calibri;
+	font-size: 20px;
+	text-align: center;
+	color: white;
+	padding-top: 10px;
+}
+#redes {
+	display: flex;
+	justify-content: center;
+}
+#logo1 img {
+	width: 50px;
+	height: 50px;
+	padding-top: 10px;
+	padding-right: 10px;
+
+}
+#logo2 img {
+	width: 50px;
+	height: 50px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
