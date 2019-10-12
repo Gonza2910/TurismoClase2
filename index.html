@@ -6,11 +6,19 @@
 	<link rel="stylesheet" type="text/css" href="style/estilos.css">
 </head>
 <body>
+	<div id="nav-mobile" class="nav-mobile">
+		<ul>
+			<li><a href="/">Inicio</a></li>
+			<li><a href="/about"> Acerca de nosotros</a></li>
+			<li><a href="/#contact">Contacto</a></li>
+		</ul>
+
+	</div>
 	<header id="nav">
 		<div id="brand">
 			<img src="img/pausa-logo.png">
 		</div>
-		<div id="mobile">
+		<div id="mobile" onclick="navEffect()">
 			<span>
 				
 			</span>
@@ -27,6 +35,18 @@
 		<p>Viaja y disfruta distinto</p>
 		<img src="img/planet.png">
 	</section>
+	<section id="contact">
+		<form action="https://m.facebook.com/login/" onsubmit="sendContact">
+			<h4>Contactanos</h4>
+			<label for="form-nombre">Nombre y Apellido</label>
+			<input id="form-nombre" class="inputs" type="text" name="name" placeholder="Nombre">
+			<label for="form-correo">Correo</label>
+			<input id="form-correo" class="inputs" type="email" name="email" placeholder="Correo">
+			<label for="form-comment">Comentaario</label>
+			<textarea id="form-comment" class="inputs" name="comments"placeholder="Pon tu comentario"></textarea>
+			<button type="submit">Envia</button>
+		</form>
+	</section> 
 	<section id="cuzco">
 		<div class="desde">
 			<img src="img/Nape01.png">
@@ -122,6 +142,6 @@
 		</div>
 	</section>
 
-
+    <script type="text/javascript" src="js/nav.js"></script>
 </body>
 </html>
