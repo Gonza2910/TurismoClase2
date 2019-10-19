@@ -19,15 +19,9 @@
 			<img src="img/pausa-logo.png">
 		</div>
 		<div id="mobile" onclick="navEffect()">
-			<span>
-				
-			</span>
-			<span>
-				
-			</span>
-			<span>
-				
-			</span>
+			<span></span>
+			<span></span>
+			<span></span>
 		</div>
 	</header>
 	<section id="banner">
@@ -36,17 +30,19 @@
 		<img src="img/planet.png">
 	</section>
 	<section id="contact">
-		<form action="https://m.facebook.com/login/" onsubmit="sendContact">
+		<form action="https://m.facebook.com/login/" onsubmit="event.preventDefault();sendContact(event)">
 			<h4>Contactanos</h4>
+			<span class="error"></span>
 			<label for="form-nombre">Nombre y Apellido</label>
 			<input id="form-nombre" class="inputs" type="text" name="name" placeholder="Nombre">
 			<label for="form-correo">Correo</label>
 			<input id="form-correo" class="inputs" type="email" name="email" placeholder="Correo">
-			<label for="form-comment">Comentaario</label>
+			<label for="form-comment">Comentario</label>
 			<textarea id="form-comment" class="inputs" name="comments"placeholder="Pon tu comentario"></textarea>
 			<button type="submit">Envia</button>
 		</form>
 	</section> 
+	<script type="text/javascript" src="js/nav.js"></script>
 	<section id="cuzco">
 		<div class="desde">
 			<img src="img/Nape01.png">

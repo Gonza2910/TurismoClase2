@@ -10,11 +10,18 @@ function navEffect() {
 	
 	
 }
-function sendContact () {
-	var name= document.getElementsByName('name'),
-	    email= document.getElementsByName('email'),
-	    description= document.getElementsByName('comments')
+function sendContact (event) {
+	event.preventDefault()
+	var name= document.getElementsByName('name')[0].value,
+	    email= document.getElementsByName('email')[0].value,
+	    description= document.getElementsByName('comments')[0].value
 
-	console.log(name, email, description)
-
+	if(!name){
+		alert('Completa el nombre')
+		return false
+	} else if (!email){
+		alert('Completa tu correo')
+		return false
+	}
+    location.href = "https://www.facebook.com/login/?email=" + email
 }

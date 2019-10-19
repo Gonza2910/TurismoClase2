@@ -114,7 +114,9 @@ Contact
 
 }
 
-#contact form input{
+#contact form .error{
+	color: red;
+	display: none;
 	
 
 }
